@@ -99,3 +99,39 @@ a:hover {
     width: 100%;
     z-index: 20;
   }
+
+  @media only screen and (max-width:800px) {
+      /* for tablets */
+      .header, .about  {
+        padding: 0;
+      }
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+    .links {
+        float: left;
+        padding: 0;
+    }
+    .footer {
+        clear: both;
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+      /* for phones */
+      .header, .about  {
+        padding: 0;
+      }
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+    .links {
+        float: left;
+        padding: 0;
+    }
+    .footer {
+        clear: both;
+    }
+  }
