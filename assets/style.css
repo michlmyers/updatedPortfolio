@@ -1,0 +1,100 @@
+body {
+    background: rgb(36, 35, 35);
+    color: rgb(201, 247, 195);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 10 16;
+    background: rgb(36, 35, 35);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.technologies {
+    width: 100%;
+    text-align: center;
+}
+
+.languageTech {
+    width: 100%;
+    text-align: center;
+}
+
+.projects {
+    display: inline-block;
+    padding: 5%;
+}
+
+.links {
+    float: right;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    color:  rgb(247, 238, 195)
+}
+
+td {
+    color:  rgb(247, 238, 195) 
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+img:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+a {
+    color: rgb(201, 247, 195);;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 22px;
+}
+
+.projectLinks {
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+  }
