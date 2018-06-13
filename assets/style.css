@@ -102,24 +102,31 @@ a:hover {
 
   @media only screen and (max-width:800px) {
       /* for tablets */
-      .header {
+    .header {
+        width: 100%;
         padding: 0;
         background: rgb(36, 35, 35);
-      }
-      .about {
-          padding: 0;
-      }
+    }
+    
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+    
     .projects {
         width: 100%;
         padding: 0;
     }
+    
     .links {
         float: left;
         padding: 0;
     }
+    
     .footer {
         clear: both;
     }
+    
     .sticky {
         z-index: 1;
     }
@@ -127,24 +134,31 @@ a:hover {
 
   @media only screen and (max-width:500px) {
       /* for phones */
-      .header {
+    .header {
+        width: 100%;
         padding: 0;
         background: rgb(36, 35, 35);
-      }
-      .about {
-          padding: 0;
-      }
+    }
+    
+    .about {
+        width: 100%;
+        padding: 0;
+    }
+    
     .projects {
         width: 100%;
         padding: 0;
     }
+    
     .links {
         float: left;
         padding: 0;
     }
+    
     .footer {
         clear: both;
     }
+    
     .sticky {
         z-index: 1;
     }
