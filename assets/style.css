@@ -102,47 +102,10 @@ a:hover {
 
   @media only screen and (max-width:800px) {
       /* for tablets */
-    .header {
-        width: 100%;
-        padding: 0;
-        background: rgb(36, 35, 35);
-    }
-    
-    .about {
+      .header, .about, .technologies {
         width: 100%;
         padding: 0;
     }
-
-    .projects {
-        width: 100%;
-        padding: 0;
-    }
-    
-    .links {
-        float: left;
-        padding: 0;
-    }
-    
-    .footer {
-        clear: both;
-    }
-    
-    .sticky {
-        z-index: 1;
-    }
-  }
-
-  @media only screen and (max-width:500px) {
-      /* for phones */
-    .header, .about, .technologies {
-        width: 100%;
-        padding: 0;
-    }
-    
-    /* .about {
-        width: 100%;
-        padding: 0;
-    } */
     
     .projects {
         width: 100%;
@@ -160,6 +123,31 @@ a:hover {
     
     .sticky {
         display: none;
-        /* z-index: 1; */
+    }
+  }
+
+  @media only screen and (max-width:500px) {
+      /* for phones */
+    .header, .about, .technologies {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .links {
+        float: left;
+        padding: 0;
+    }
+    
+    .footer {
+        clear: both;
+    }
+    
+    .sticky {
+        display: none;
     }
   }
