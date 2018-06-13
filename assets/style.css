@@ -116,6 +116,9 @@ a:hover {
     .footer {
         clear: both;
     }
+    .sticky {
+        z-index: 1;
+    }
   }
 
   @media only screen and (max-width:500px) {
@@ -133,5 +136,8 @@ a:hover {
     }
     .footer {
         clear: both;
+    }
+    .sticky {
+        z-index: 1;
     }
   }
