@@ -37,6 +37,23 @@ body {
     padding: 5%;
 }
 
+/* next three classes are working with the project link div and the scroll bar */
+.projectLinks {
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    /* overflow: visible; */
+}
+
+.projectLinks::-webkit-scrollbar {
+     width: 12px;
+}
+
+.projectLinks::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
 .links {
     float: right;
     padding: 5%;
@@ -85,12 +102,6 @@ a:link {
 
 a:hover {
     font-size: 22px;
-}
-
-.projectLinks {
-    width: 500px;
-    height: 400px;
-    overflow: auto;
 }
 
 .sticky {
